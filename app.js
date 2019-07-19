@@ -12,7 +12,7 @@ const router = express.Router();
 app.use(express.static('public'))
 
 router.get('/Card4', function (req, res) {
-res.sendFile(path.join(__dirname + '/Card4.html'));
+res.sendFile(path.join(__dirname + '/Views/Park/Card4.html'));
 });
 
 
