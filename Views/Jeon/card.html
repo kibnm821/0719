@@ -12,19 +12,79 @@
         <titl></titl>
     </head>
     <body>
-        <div class="card-deck">
-            <div class="card">Card01 </div>
-            <div class="card">Card02 </div>
-            <div class="card">Card03 </div>
+        <div class="container">
+            <header class = "blog-header py-3">
+                <div class = "row flex-nowrap justify-content-between align-items-center">
+                    <div class = "col-4"><a class = "text-muted" href="#">Store</a></div>
+                    <div class = "col-4 text-center"><h3><a class = "text-dark" href="#">WOONGSINSA</a></h3></div>
+
+                    <div class = "col-4 d-flex justify-content-end align-items-center">
+                        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header text-center">
+                                  <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <!------------------------------------------------------------------------------------------------->
+                                <div class="modal-body mx-3">
+                                  <div class="md-form mb-5">
+                                    <i class="fas fa-envelope prefix grey-text"></i>
+                                    <input type="email" id="defaultForm-email" class="form-control validate">
+                                    <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                                  </div>
+                          
+                                  <div class="md-form mb-4">
+                                    <i class="fas fa-lock prefix grey-text"></i>
+                                    <input type="password" id="defaultForm-pass" class="form-control validate">
+                                    <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                                  </div>
+                          
+                                </div>
+                                <!------------------------------------------------------------------------------------------------->
+                                <div class="modal-footer d-flex justify-content-center">
+                                  <button class="btn btn-default">Login</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>                 
+                          <div class="text-center">
+                            <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Signin</a>
+                          <a class="text-muted" href="#">Sign Up</a>
+                          </div>
+                    </div>
+                </div>
+            </header>
+            <div class= "jumbotron p-3 p-md-5 text-white rounded bg-dark  text-center">
+
+                <div class = "col-md-6 px-0">
+                    <h1 class= "display-4">WSS</h1>
+                    <p class = "my-3">
+                        SPRING SUMMER COLLECTION 2019
+                    </p>
+                </div>
+            </div>
+            <div class= "row">
+                <div class = "col-sm-6">
+                    <div class="card" >
+                            <img class="card-img-top" src="../Jeon/img/캡처.PNG" alt="Card image cap">
+                            <div class="card-body">
+                            <p class="card-text">미니멀한 디자인에 유니섹슈얼한 핏감으로 다양한 코디가 가능하며, 흐르는 느낌에 이너착용도 가능한 핏감으로 만들어졌습니다.</p>
+                            </div>
+                    </div>
+                </div> 
+                <div class = "col-sm-6">   
+                    <div class="card" >
+                            <img class="card-img-top" src="../Jeon/img/jd_main2_knit (1).jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <p class="card-text"> 30년간 컨템포러리브랜드의 자켓만을 작업한 공장과 협업하여 생산되었습니다.</p>
+                            </div>
+                    </div>
+                </div>    
+            </div>
         </div>
-        <div class="card-columns">
-            <div class="card"> Card01 </div>
-            <div class="card"> Card02 </div>
-            <div class="card"> Card03 </div>
-            <div class="card"> Card04 </div>
-            <div class="card"> Card05 </div>
-            <div class="card"> Card06 </div>
-            <div class="card"> Card07 </div>
-        </div>
+          
     </body>
 </html>
