@@ -11,9 +11,8 @@ const router = express.Router();
 
 app.use(express.static('public'))
 
-router.get('/index', function (req, res) {
-res.sendFile(path.join(__dirname + '/index.html'));
-//__dirname : It will resolve to your project folder.
+router.get('/Card4', function (req, res) {
+res.sendFile(path.join(__dirname + '/Card4.html'));
 });
 
 
